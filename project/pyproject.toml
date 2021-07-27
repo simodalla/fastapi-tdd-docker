@@ -11,12 +11,13 @@ exclude = '''
     | \.hg
     | \.mypy_cache
     | \.tox
-    | \._venv
+    | \env
     | _build
     | buck-out
     | build
     | dist
     | migrations
+    | htmlcov
     | \.sh
   )
 )

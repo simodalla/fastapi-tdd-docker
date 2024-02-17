@@ -45,7 +45,7 @@ target-version = "py312"
 mccabe = { max-complexity = 14 }
 
 [tool.ruff.lint.isort]
-known-first-party = ["project"]
+known-first-party = ["app"]
 section-order = [
   "future",
   "standard-library",

@@ -19,6 +19,7 @@ aerich = "^0.7.2"
 pytest = "^8.0.0"
 pytest-sugar = "^1.0.0"
 httpx = "^0.26.0"
+devtools = "^0.12.2"
 
 [build-system]
 requires = ["poetry-core"]
@@ -43,6 +44,9 @@ exclude = [
 ]
 target-version = "py312"
 mccabe = { max-complexity = 14 }
+
+[tool.ruff.lint]
+extend-select = ["E501"]
 
 [tool.ruff.lint.isort]
 known-first-party = ["app"]

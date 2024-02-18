@@ -37,6 +37,7 @@ pip-delete-this-directory.txt
 
 # Unit test / coverage reports
 htmlcov/
+project/htmlcov/
 .tox/
 .coverage
 .coverage.*
@@ -351,3 +352,4 @@ query_lastlogin.txt
 demo/*
 *.csv
 *.json
+

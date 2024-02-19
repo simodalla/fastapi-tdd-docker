@@ -18,9 +18,6 @@ pytest = "^8.0.1"
 pytest-cov = "^4.1.0"
 pytest-sugar = "^1.0.0"
 httpx = "^0.26.0"
-
-
-[tool.poetry.group.dev.dependencies]
 devtools = "^0.12.2"
 
 
